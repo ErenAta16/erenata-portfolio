@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eren Ata - AI & Computer Vision Developer | Data Analyst. TÜBİTAK destekli projeler, yapay zeka ve veri analizi uzmanı.">
+    <meta name="keywords" content="AI, Computer Vision, Data Analysis, Machine Learning, TÜBİTAK, Portfolio">
+    <meta name="author" content="Eren Ata">
+    <meta property="og:title" content="Eren Ata | AI & Computer Vision Developer">
+    <meta property="og:description" content="AI ve Computer Vision uzmanı. TÜBİTAK destekli projeler ve veri analizi çözümleri.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://erenata16.github.io/portfolio-website/">
+    <title>Eren Ata | AI & Computer Vision Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">
+                    <i class="fas fa-home"></i>
+                    <span>Ana Sayfa</span>
+                </a>
+                <a href="#projects" class="nav-link">
+                    <i class="fas fa-folder-open"></i>
+                    <span>Projeler</span>
+                </a>
+                <a href="#skills" class="nav-link">
+                    <i class="fas fa-cogs"></i>
+                    <span>Yetenekler</span>
+                </a>
+                <a href="#contact" class="nav-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>İletişim</span>
+                </a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="code-background">
+            <div class="code-line">import tensorflow as tf</div>
+            <div class="code-line">import numpy as np</div>
+            <div class="code-line">from sklearn.model_selection import train_test_split</div>
+            <div class="code-line">import pandas as pd</div>
+            <div class="code-line">import cv2</div>
+            <div class="code-line">from ultralytics import YOLO</div>
+            <div class="code-line">import matplotlib.pyplot as plt</div>
+            <div class="code-line">import seaborn as sns</div>
+            <div class="code-line"></div>
+            <div class="code-line"># Solar Energy Data Analysis</div>
+            <div class="code-line">def analyze_solar_data(data):</div>
+            <div class="code-line">    model = tf.keras.Sequential([</div>
+            <div class="code-line">        tf.keras.layers.Dense(128, activation='relu'),</div>
+            <div class="code-line">        tf.keras.layers.Dropout(0.2),</div>
+            <div class="code-line">        tf.keras.layers.Dense(64, activation='relu'),</div>
+            <div class="code-line">        tf.keras.layers.Dense(1)</div>
+            <div class="code-line">    ])</div>
+            <div class="code-line">    return model</div>
+            <div class="code-line"></div>
+            <div class="code-line"># Computer Vision Detection</div>
+            <div class="code-line">model = YOLO('yolov8n.pt')</div>
+            <div class="code-line">results = model.predict(source='image.jpg')</div>
+            <div class="code-line">accuracy = 0.98</div>
+            <div class="code-line"></div>
+            <div class="code-line"># Data Preprocessing</div>
+            <div class="code-line">X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)</div>
+            <div class="code-line">scaler = StandardScaler()</div>
+            <div class="code-line">X_scaled = scaler.fit_transform(X_train)</div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="main-name">Eren Ata</span>
+                </h1>
+                
+                <div class="hero-subtitle">
+                    <span class="profession-primary">AI & Computer Vision Developer</span>
+                    <span class="profession-divider">|</span>
+                    <span class="profession-secondary">Data Analyst</span>
+                </div>
+                
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i>
+                        <span>Projelerimi İncele</span>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i>
+                        <span>İletişime Geç</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Öne Çıkan Projeler</h2>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/ErenAta16" target="_blank" class="project-link" title="GitHub'da Görüntüle">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Detaylar">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-solar-panel"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Solar Performans Arttırma Sistemi (SPİS)</h3>
+                            <span class="project-status">TÜBİTAK 2209-B</span>
+                        </div>
+                        <p class="project-description">
+                            TÜBİTAK 2209-B destekli ve EnerjiSA iş birliğiyle yürütülen güneş enerji santrallerinde yapay zeka destekli 
+                            verim artırma projesi. Büyük veri analizi ile çevresel faktörlerin panel performansına etkilerini modelleyerek 
+                            dinamik bakım stratejileri geliştirme.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">Data Analysis</span>
+                            <span class="tech-tag">Solar Energy</span>
+                            <span class="tech-tag">TÜBİTAK</span>
+                        </div>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">2024</span>
+                                <span class="metric-label">TÜBİTAK</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">Aktif</span>
+                                <span class="metric-label">Durum</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/ErenAta16" target="_blank" class="project-link" title="GitHub'da Görüntüle">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Demo">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Kapsamlı Endüstriyel Güvenlik ve Kalite Kontrol Sistemi</h3>
+                            <span class="project-status">Aktif</span>
+                        </div>
+                        <p class="project-description">
+                            <strong>4 Modüllü Kapsamlı Sistem:</strong><br>
+                            • İnsan tespiti ve güvenli alan kontrolü<br>
+                            • Güvenlik ekipmanı (baret, yelek) tespiti<br>
+                            • Araç takip ve plaka tanıma<br>
+                            • Üretim hattı kalite kontrol
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">YOLOv8-Large</span>
+                            <span class="tech-tag">Multi-Module System</span>
+                            <span class="tech-tag">Quality Control</span>
+                            <span class="tech-tag">Safety Detection</span>
+                            <span class="tech-tag">Vehicle Tracking</span>
+                        </div>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">4</span>
+                                <span class="metric-label">Modül</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">98%</span>
+                                <span class="metric-label">Doğruluk</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/ErenAta16/algorithms" target="_blank" class="project-link" title="GitHub'da Görüntüle">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://kaggle.com/erenata" target="_blank" class="project-link" title="Kaggle">
+                                    <i class="fab fa-kaggle"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Akıllı Algoritma Öneri Sistemi</h3>
+                            <span class="project-status">Tamamlandı</span>
+                        </div>
+                        <p class="project-description">
+                            250+ algoritma arasından en uygun olanını öneren sistem. Ward Clustering ile %38 daha yüksek performans. 
+                            16 temel kritere göre algoritma analizi ve otomatik öneri.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">Ward Clustering</span>
+                            <span class="tech-tag">Algorithm Analysis</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">250+</span>
+                                <span class="metric-label">Algoritma</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">38%</span>
+                                <span class="metric-label">İyileştirme</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/ErenAta16" target="_blank" class="project-link" title="GitHub'da Görüntüle">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>KOVAK Hava Savunma Sistemleri</h3>
+                            <span class="project-status">TEKNOFEST 2024</span>
+                        </div>
+                        <p class="project-description">
+                            TEKNOFEST 2024 kapsamında kurulan KOVAK Hava Savunma Sistemleri topluluğunun 
+                            kurucu üyesi olarak hava savunma teknolojileri geliştirme projesi.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Defense Systems</span>
+                            <span class="tech-tag">TEKNOFEST</span>
+                            <span class="tech-tag">Team Leadership</span>
+                            <span class="tech-tag">Innovation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/ErenAta16" target="_blank" class="project-link" title="GitHub'da Görüntüle">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Fire Detection System</h3>
+                            <span class="project-status">Tamamlandı</span>
+                        </div>
+                        <p class="project-description">
+                            YOLOv8 algoritması kullanılarak geliştirilmiş gerçek zamanlı yangın tespit sistemi. 
+                            Özel veri seti ile eğitilmiş model, yüksek doğruluk oranı ile yangın ve duman tespiti.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">YOLOv8</span>
+                            <span class="tech-tag">Fire Detection</span>
+                            <span class="tech-tag">Real-time</span>
+                            <span class="tech-tag">Computer Vision</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/ErenAta16" target="_blank" class="project-link" title="GitHub'da Görüntüle">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Object Detection with SSD</h3>
+                            <span class="project-status">Tamamlandı</span>
+                        </div>
+                        <p class="project-description">
+                            Single Shot MultiBox Detector kullanarak çoklu nesne tespiti. 
+                            Gerçek zamanlı performans ve yüksek doğruluk oranı sağlayan sistem.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">SSD</span>
+                            <span class="tech-tag">Object Detection</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Multi-Object</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Teknik Yetenekler</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>AI & Machine Learning</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-network-wired"></i>
+                            <span>TensorFlow</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-fire"></i>
+                            <span>PyTorch</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Scikit-learn</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-eye"></i>
+                        <h3>Computer Vision</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-camera"></i>
+                            <span>OpenCV</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-search"></i>
+                            <span>YOLOv8</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-square"></i>
+                            <span>Object Detection</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-image"></i>
+                            <span>Image Processing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-chart-bar"></i>
+                        <h3>Data Analysis & Visualization</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-table"></i>
+                            <span>Pandas</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Seaborn</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-area"></i>
+                            <span>Matplotlib</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-calculator"></i>
+                            <span>NumPy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Araçlar & Teknolojiler</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>C#</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">İletişime Geçin</h2>
+            <div class="contact-intro">
+                <p>
+                    Projeniz için AI, Computer Vision ve veri analizi çözümleri mi arıyorsunuz? 
+                    Büyük veri setlerinizi anlamlı çıkarımlara dönüştürmek için birlikte çalışalım.
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info single-column">
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>E-posta</h4>
+                                <p>erena6466@gmail.com</p>
+                                <span>24 saat içinde yanıt</span>
+                            </div>
+                        </div>
+                        
+
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>GitHub</h4>
+                                <p>@ErenAta16</p>
+                                <span>Açık kaynak projeler</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-profiles">
+                        <h4>Sosyal Medya</h4>
+                        <div class="profile-grid">
+                            <a href="https://github.com/ErenAta16" target="_blank" class="profile-card">
+                                <div class="profile-icon github">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="profile-info">
+                                    <h5>GitHub</h5>
+                                    <p>AI & CV Projeleri</p>
+                                </div>
+                            </a>
+                            
+                            <a href="https://kaggle.com/erenata" target="_blank" class="profile-card">
+                                <div class="profile-icon kaggle">
+                                    <i class="fab fa-kaggle"></i>
+                                </div>
+                                <div class="profile-info">
+                                    <h5>Kaggle</h5>
+                                    <p>Veri Bilimi</p>
+                                </div>
+                            </a>
+                            
+                            <a href="https://linkedin.com/in/eren-ata" target="_blank" class="profile-card">
+                                <div class="profile-icon linkedin">
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <div class="profile-info">
+                                    <h5>LinkedIn</h5>
+                                    <p>Profesyonel Ağ</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>© 2024 Eren Ata - AI & Computer Vision Developer | Data Analyst</p>
+                    <p>Yapay zeka ile geleceği şekillendiriyorum</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Ana Sayfa</a>
+                    <span>•</span>
+                    <a href="https://github.com/ErenAta16" target="_blank">GitHub</a>
+                    <span>•</span>
+                    <a href="#contact">İletişim</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
