@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://erenata16.github.io/erenata-portfolio/sitemap.xml
+
+# Disallow unnecessary files
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /README.md 

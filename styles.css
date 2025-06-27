@@ -1,4 +1,4 @@
-/* CSS Variables */
+/* CSS Variables - Optimized for Performance */
 :root {
     --bg-primary: #fafafa;
     --bg-secondary: #ffffff;
@@ -50,7 +50,9 @@ body {
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
     min-height: 100vh;
+    will-change: scroll-position;
 }
 
 ::selection {
@@ -198,6 +200,8 @@ body {
     height: 100%;
     z-index: 1;
     opacity: 0.1;
+    will-change: transform;
+    contain: layout style paint;
     overflow: hidden;
     pointer-events: none;
 }

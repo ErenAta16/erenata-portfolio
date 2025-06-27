@@ -15,17 +15,24 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
-// Navbar Background Change on Scroll
+// Navbar Background Change on Scroll (Throttled)
+let isScrolling = false;
 window.addEventListener('scroll', () => {
-    const navbar = document.querySelector('.navbar');
-    if (window.scrollY > 50) {
-        navbar.style.backgroundColor = 'rgba(255, 255, 255, 0.98)';
-        navbar.style.backdropFilter = 'blur(12px)';
-        navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
-    } else {
-        navbar.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
-        navbar.style.backdropFilter = 'blur(12px)';
-        navbar.style.boxShadow = '0 1px 2px 0 rgb(0 0 0 / 0.05)';
+    if (!isScrolling) {
+        window.requestAnimationFrame(() => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.style.backgroundColor = 'rgba(15, 15, 35, 0.98)';
+                navbar.style.backdropFilter = 'blur(20px)';
+                navbar.style.boxShadow = '0 4px 32px rgba(0, 0, 0, 0.4)';
+            } else {
+                navbar.style.backgroundColor = 'rgba(15, 15, 35, 0.95)';
+                navbar.style.backdropFilter = 'blur(20px)';
+                navbar.style.boxShadow = '0 4px 32px rgba(0, 0, 0, 0.3)';
+            }
+            isScrolling = false;
+        });
+        isScrolling = true;
     }
 });
 

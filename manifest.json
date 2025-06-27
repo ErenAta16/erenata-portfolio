@@ -1,0 +1,16 @@
+{
+    "name": "Eren Ata - AI & Computer Vision Portfolio",
+    "short_name": "Eren Ata Portfolio",
+    "description": "AI & Computer Vision Developer | Data Analyst Portfolio",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0f0f23",
+    "theme_color": "#64ffda",
+    "icons": [
+        {
+            "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iMjQiIGZpbGw9IiMwZjBmMjMiLz4KPHN2ZyB4PSI0OCIgeT0iNDgiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjNjRmZmRhIj4KICA8cGF0aCBkPSJNOS40IDEwLjVMMTMuNjUgMy40MkMxNCAzLjIzIDE0LjQ2IDMuMTEgMTQuOTYgMy4xMUMxNS41NiAzLjExIDE2LjA0IDMuMjYgMTYuMzggMy41NkMxNi43MyAzLjg2IDE2LjkgNC4yNyAxNi45IDQuNzlDMTYuOSA1LjEzIDE2LjgzIDUuNDMgMTYuNjkgNS42OUwxMi44NSAxMS4yNEwxNi42OSAxNi43OUMxNi44MyAxNy4wNSAxNi45IDE3LjM1IDE2LjkgMTcuNjlDMTYuOSAxOC4yMSAxNi43MyAxOC42MiAxNi4zOCAxOC45MkMxNi4wNCAxOS4yMiAxNS41NiAxOS4zNyAxNC45NiAxOS4zN0MxNC40NiAxOS4zNyAxNCAxOS4yNSAxMy42NSAxOS4wNkw5LjQgMTEuOTNINy4zNkM2Ljc2IDExLjkzIDYuMjggMTEuNzggNS45MyAxMS40OEM1LjU4IDExLjE4IDUuNDEgMTAuNzcgNS40MSAxMC4yNEM1LjQxIDkuNzEgNS41OCA5LjMgNS45MyA5QzYuMjggOC43IDYuNzYgOC41NSA3LjM2IDguNTVIOS40VjEwLjVaIi8+Cjwvc3ZnPgo8L3N2Zz4K",
+            "sizes": "192x192",
+            "type": "image/svg+xml"
+        }
+    ]
+} 
