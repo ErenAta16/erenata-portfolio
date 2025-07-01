@@ -172,7 +172,7 @@ if (contactForm) {
             submitBtn.innerHTML = '<i class="fas fa-check"></i><span>Mesaj Gönderildi!</span>';
             submitBtn.style.background = 'var(--accent-green)';
             
-            showNotification('Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağım.', 'success');
+            // Removed notification - simpler feedback via button only
             
             setTimeout(() => {
                 submitBtn.innerHTML = originalHTML;
