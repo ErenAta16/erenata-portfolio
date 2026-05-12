@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Eren Ata — LLMOps &amp; MLOps</title>
+
+    <meta name="description" content="Eren Ata: LLMOps, MLOps, and generative AI. Intern at CeDRI (IPB, Bragança). Projects on Hugging Face and GitHub.">
+    <meta name="keywords" content="Eren Ata, LLMOps, MLOps, LLM, machine learning, CeDRI, IPB, Hugging Face">
+    <meta name="author" content="Eren Ata">
+    <meta name="theme-color" content="#0F0E0D">
+
+    <meta property="og:title" content="Eren Ata — LLMOps &amp; MLOps">
+    <meta property="og:description" content="Generative AI, fine-tuning, and production workflows. Projects and contact.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://erenata16.github.io/erenata-portfolio/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical" href="https://erenata16.github.io/erenata-portfolio/">
+    <link rel="manifest" href="manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Geist:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ============================================================
+         Navigation
+         ============================================================ -->
+    <nav class="nav" id="nav">
+        <div class="container nav-inner">
+            <a href="#" class="nav-mark">Eren <span>Ata</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#path">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ============================================================
+         Hero
+         ============================================================ -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-eyebrow">
+                <span class="dot"></span>
+                <span>Now</span>
+                <span class="line"></span>
+                <span>CeDRI · IPB · Bragança</span>
+            </div>
+
+            <h1 class="hero-title">
+                LLMOps &amp; MLOps:<br>
+                generative AI<br>
+                &amp; <em>data</em> systems.
+            </h1>
+
+            <p class="hero-lede">
+                I work on large language models, fine-tuning, and deployment. Image and video used to carry more of the load; today the focus is production pipelines and operations.
+            </p>
+
+            <div class="hero-meta">
+                <div class="meta-item">
+                    <span class="meta-label">Location</span>
+                    <span class="meta-value">Bragança, Portugal</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Role</span>
+                    <span class="meta-value">Intern (LLMOps / MLOps)</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Organization</span>
+                    <span class="meta-value">CeDRI — Instituto Politécnico de Bragança</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Artifacts</span>
+                    <span class="meta-value">
+                        <a href="https://huggingface.co/ErenAta00" target="_blank" rel="noopener">huggingface.co/ErenAta00</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         About
+         ============================================================ -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="section-no">01 / About</span>
+                <h2>A short <em>overview.</em></h2>
+                <span class="section-aside">Background</span>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-narrative reveal">
+                    <p>
+                        I am an intern focused on <strong>LLMOps</strong> and <strong>MLOps</strong> at <strong>CeDRI</strong> (Centro de Investigação em Digitalização e Robótica Inteligente),
+                        <strong>Instituto Politécnico de Bragança</strong>.
+                        I work on LLM fine-tuning, evaluation, and production pipelines.
+                    </p>
+
+                    <p>
+                        Previously: data and image processing at <strong>MCBU XRLab</strong>, project-management internships at <strong>TNC Group</strong>;
+                        maintenance-focused models on EnerjiSA solar plant data under <strong>TÜBİTAK 2209-B</strong>.
+                        Member of the <strong>Cohere Lab Research Community</strong>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         Projects
+         ============================================================ -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="section-no">02 / Projects</span>
+                <h2>Selected <em>work.</em></h2>
+                <span class="section-aside">Links · status</span>
+            </div>
+
+            <div class="projects-list">
+
+                <article class="project-row reveal">
+                    <div class="project-no">P/01</div>
+                    <div class="project-body">
+                        <h3>CypherMind <em class="arrow">→</em></h3>
+                        <p>
+                            A language model fine-tuned on <strong>Llama 3.1 8B</strong> for <strong>CTF (Capture The Flag)</strong> tasks.
+                            Ongoing work with the XRLab data science and security team I lead; weights ship as <strong>GGUF</strong> on Hugging Face.
+                        </p>
+                        <p>
+                            Alongside that, a public <strong>leaderboard</strong> (Space) for Turkish small language models—used to compare models side by side.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">LLM</span>
+                            <span class="project-tag">Fine-tuning</span>
+                            <span class="project-tag">GGUF</span>
+                            <span class="project-tag">Security</span>
+                        </div>
+                    </div>
+                    <div class="project-aside">
+                        <div class="status">Published</div>
+                        <a href="https://huggingface.co/ErenAta00/CaptureTheFlag-CypherMindLLM-XRLAB-GGUF" target="_blank" rel="noopener">
+                            Model
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                        </a>
+                        <a href="https://huggingface.co/spaces/ErenAta00/turkish-slm-leaderboard" target="_blank" rel="noopener">
+                            Leaderboard
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-row reveal">
+                    <div class="project-no">P/02</div>
+                    <div class="project-body">
+                        <h3>SPIS <em class="arrow">→</em></h3>
+                        <p>
+                            A project under <strong>TÜBİTAK 2209-B</strong> with <strong>EnerjiSA Generation</strong>.
+                            Using sensor and environmental data from two solar plants in Balıkesir and Çanakkale, we model how conditions affect panel performance and recommend <strong>dynamic maintenance windows</strong>—a more data-driven alternative to fixed schedules.
+                        </p>
+                        <p>
+                            A <strong>Streamlit</strong> demo makes the flow observable; model and data-pipeline work continue.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Time series</span>
+                            <span class="project-tag">Industry</span>
+                            <span class="project-tag">TÜBİTAK</span>
+                            <span class="project-tag">Streamlit</span>
+                        </div>
+                    </div>
+                    <div class="project-aside">
+                        <div class="status">Active</div>
+                        <a href="https://solar-system.streamlit.app" target="_blank" rel="noopener">
+                            Demo
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                        </a>
+                        <a href="https://github.com/ErenAta16" target="_blank" rel="noopener">
+                            GitHub
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-row reveal">
+                    <div class="project-no">P/03</div>
+                    <div class="project-body">
+                        <h3>Gargantua <em class="arrow">→</em></h3>
+                        <p>
+                            A <strong>LoRA</strong> fine-tune on a <strong>CogVideoX-Fun</strong> video model for object removal.
+                            Inspired by Netflix <strong>VOID</strong>; without public training data, we built a <strong>VOID-Quadmask</strong> dataset from counterfactual scenes in <strong>Unity 6 HDRP</strong> with deterministic physics and <strong>quadmask</strong> conditioning.
+                        </p>
+                        <p>
+                            The goal is coherent single-pass removal of objects together with shadows and contact effects; temporally we measured roughly <strong>9.2% lower flicker</strong> than the reference VOID baseline. Technical write-up and citation live on the model card and <strong>arXiv</strong>.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Video</span>
+                            <span class="project-tag">LoRA · PEFT</span>
+                            <span class="project-tag">Diffusers</span>
+                            <span class="project-tag">Data synthesis</span>
+                        </div>
+                    </div>
+                    <div class="project-aside">
+                        <div class="status">Published</div>
+                        <a href="https://huggingface.co/ErenAta00/gargantua" target="_blank" rel="noopener">
+                            Model
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                        </a>
+                        <a href="https://huggingface.co/datasets/ErenAta00/VOID-Quadmask-Dataset" target="_blank" rel="noopener">
+                            Dataset
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                        </a>
+                        <a href="https://arxiv.org/abs/2604.02296" target="_blank" rel="noopener">
+                            arXiv
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-row reveal">
+                    <div class="project-no">P/04</div>
+                    <div class="project-body">
+                        <h3>Morpheus LLM <em class="arrow">→</em></h3>
+                        <p>
+                            A <strong>14B</strong> generative model fine-tuned for text generation in virtual and augmented reality, with domain-appropriate language.
+                            Built under <strong>XRLab</strong>; the current release on Hugging Face is <strong>MorpheusHigh-LLM-14B-Virtual-Reality-Model</strong>.
+                        </p>
+                        <p>
+                            The aim is more consistent, context-aware generations inside XR content and tooling pipelines.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">14B</span>
+                            <span class="project-tag">VR/XR</span>
+                            <span class="project-tag">Text generation</span>
+                            <span class="project-tag">Hugging Face</span>
+                        </div>
+                    </div>
+                    <div class="project-aside">
+                        <div class="status">Published</div>
+                        <a href="https://huggingface.co/ErenAta00/MorpheusHigh-LLM-14B-Virtual-Reality-Model" target="_blank" rel="noopener">
+                            Hugging Face
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-row reveal">
+                    <div class="project-no">P/05</div>
+                    <div class="project-body">
+                        <h3>LayerLens <em class="arrow">→</em></h3>
+                        <p>
+                            A research line that automatically picks layer-wise <strong>PEFT</strong> methods (LoRA, adapters, prefix tuning, etc.) and <strong>rank</strong> settings to cut fine-tuning cost for large language and vision models.
+                            Gradients and approximate cost rely on heavy linear algebra.
+                        </p>
+                        <p>
+                            Hot loops were rewritten in <strong>Cython</strong> with memory views; on the gradient path we measured about <strong>124×</strong> speedup versus pure Python (VRAM and FLOPs awareness shaped the design).
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">PEFT</span>
+                            <span class="project-tag">Cython</span>
+                            <span class="project-tag">Optimization</span>
+                            <span class="project-tag">MLOps</span>
+                        </div>
+                    </div>
+                    <div class="project-aside">
+                        <div class="status">Research</div>
+                    </div>
+                </article>
+
+                <article class="project-row reveal">
+                    <div class="project-no">P/06</div>
+                    <div class="project-body">
+                        <h3>ARIA · Google BigQuery AI <em class="arrow">→</em></h3>
+                        <p>
+                            A modular retail-intelligence scaffold for the Google Cloud <strong>BigQuery AI</strong> competition: end-to-end examples for customer behavior, recommendations, sales forecasting, and inventory.
+                            <strong>BigQuery ML</strong>, <strong>Vector Search</strong>, and generative pieces sit in one architecture.
+                        </p>
+                        <p>
+                            Delivered as a <strong>29-cell</strong> Jupyter notebook on GitHub, packaged for the competition’s award categories.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">BigQuery ML</span>
+                            <span class="project-tag">Vector Search</span>
+                            <span class="project-tag">E-commerce</span>
+                            <span class="project-tag">Generative AI</span>
+                        </div>
+                    </div>
+                    <div class="project-aside">
+                        <div class="status">Completed</div>
+                        <a href="https://github.com/ErenAta16/aria-bigquery-ai-ecommerce" target="_blank" rel="noopener">
+                            Repo
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-row reveal">
+                    <div class="project-no">P/07</div>
+                    <div class="project-body">
+                        <h3>XRAssist <em class="arrow">→</em></h3>
+                        <p>
+                            An <strong>AI assistant</strong> under <strong>XRLab</strong> that suggests roadmaps and resources from a user’s project idea.
+                            A fine-tuned variant of a pretrained LLM runs in the backend; training data went through heavy preprocessing.
+                        </p>
+                        <p>
+                            It draws on a database of roughly <strong>200,000</strong> project records to suggest similar projects and next steps. Productization and safety boundaries are still in progress.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">LLM agent</span>
+                            <span class="project-tag">Fine-tuning</span>
+                            <span class="project-tag">RAG-like</span>
+                        </div>
+                    </div>
+                    <div class="project-aside">
+                        <div class="status">In development</div>
+                    </div>
+                </article>
+
+                <article class="project-row reveal">
+                    <div class="project-no">P/08</div>
+                    <div class="project-body">
+                        <h3>Industrial safety &amp; quality <em class="arrow">→</em></h3>
+                        <p>
+                            A four-module <strong>YOLOv8-Large</strong> stack for factory and field use: people detection and safe-zone violations, <strong>PPE</strong> checks (helmets, vests), vehicle tracking and plate reading, and on-line <strong>quality control</strong>.
+                        </p>
+                        <p>
+                            Modules are designed to compose into a single vision pipeline with reusable pieces for warehouse and production floors.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">YOLOv8-Large</span>
+                            <span class="project-tag">Multi-task CV</span>
+                            <span class="project-tag">Field</span>
+                        </div>
+                    </div>
+                    <div class="project-aside">
+                        <div class="status">Active</div>
+                        <a href="https://github.com/ErenAta16/-AISG-Personal-Protective-Equipment-Inspection-System" target="_blank" rel="noopener">
+                            Repo
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-row reveal">
+                    <div class="project-no">P/09</div>
+                    <div class="project-body">
+                        <h3>LLM stress testing <em class="arrow">→</em></h3>
+                        <p>
+                            Load- and latency-focused <strong>stress tests</strong> on popular open <strong>8B</strong> models (Mistral, Qwen, Llama, Cohere, Gemma), mapping bottlenecks across memory, cache, and multi-client scenarios.
+                        </p>
+                        <p>
+                            After <strong>fine-tuning</strong> and configuration experiments driven by those bottlenecks, we collect measurements; the goal is an academic or technical write-up.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Benchmark</span>
+                            <span class="project-tag">Performance</span>
+                            <span class="project-tag">LLM</span>
+                        </div>
+                    </div>
+                    <div class="project-aside">
+                        <div class="status">Ongoing</div>
+                    </div>
+                </article>
+
+                <article class="project-row reveal">
+                    <div class="project-no">P/10</div>
+                    <div class="project-body">
+                        <h3>KOVAK · Air defense <em class="arrow">→</em></h3>
+                        <p>
+                            Founding member of the <strong>KOVAK Air Defense Systems</strong> community.
+                            Active <strong>TEKNOFEST</strong> participation, systems design, and in-team coordination are at the core.
+                        </p>
+                        <p>
+                            A community effort around defense technologies and competition discipline, run as a separate track from software and data-science projects.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Community</span>
+                            <span class="project-tag">TEKNOFEST</span>
+                            <span class="project-tag">Systems</span>
+                        </div>
+                    </div>
+                    <div class="project-aside">
+                        <div class="status">Active</div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         Path
+         ============================================================ -->
+    <section id="path" class="path">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="section-no">03 / Experience</span>
+                <h2>Places I’ve <em>worked.</em></h2>
+                <span class="section-aside">Place · work</span>
+            </div>
+
+            <div class="path-list">
+                <div class="path-row reveal">
+                    <div class="path-place">
+                        CeDRI, Instituto Politécnico de Bragança
+                        <small>Bragança, Portugal · Research center for digitalization and intelligent robotics · <span class="path-badge">Active</span></small>
+                    </div>
+                    <div class="path-what">
+                        Generative models, LLM fine-tuning and evaluation; reproducible experiment logs and production-adjacent pilots. LLMOps and MLOps practices for operations and observability.
+                    </div>
+                </div>
+
+                <div class="path-row reveal">
+                    <div class="path-place">
+                        Cohere Lab Research Community
+                        <small>Remote · open LLM research community · <span class="path-badge">Active</span></small>
+                    </div>
+                    <div class="path-what">
+                        Experiments, measurement, and documentation on open models; iteration loops with community feedback.
+                    </div>
+                </div>
+
+                <div class="path-row reveal">
+                    <div class="path-place">
+                        Manisa Celal Bayar University, XRLab
+                        <small>Manisa, Türkiye · Extended reality and data lab</small>
+                    </div>
+                    <div class="path-what">
+                        Cleaning and analyzing project data, image processing and model training; data and model groundwork for XRAssist and CypherMind.
+                    </div>
+                </div>
+
+                <div class="path-row reveal">
+                    <div class="path-place">
+                        TNC Group
+                        <small>Project and communications office</small>
+                    </div>
+                    <div class="path-what">
+                        Schedule and delivery tracking, stakeholder correspondence, and triaging field feedback; short-cycle project coordination.
+                    </div>
+                </div>
+
+                <div class="path-row reveal">
+                    <div class="path-place">
+                        KOVAK Air Defense Systems
+                        <small>Student and volunteer community focused on TEKNOFEST · <span class="path-badge">Active</span></small>
+                    </div>
+                    <div class="path-what">
+                        Early-stage systems discussions, task allocation, and alignment with competition timelines; mapping technical and administrative work packages.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         Contact
+         ============================================================ -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-inner reveal">
+                <div class="contact-left">
+                    <div class="section-no contact-no">04 / Contact</div>
+                    <h2>Contact</h2>
+                    <a href="mailto:erena6466@gmail.com" class="email">
+                        erena6466@gmail.com
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="14" height="14"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                    </a>
+                    <div class="email-note">Collaborations and questions welcome. I usually reply within a day.</div>
+                </div>
+
+                <div class="socials">
+                    <a href="https://github.com/ErenAta16" target="_blank" rel="noopener" class="social">
+                        <span class="platform">GitHub</span>
+                        <span class="handle">
+                            @ErenAta16
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                        </span>
+                    </a>
+                    <a href="https://huggingface.co/ErenAta00" target="_blank" rel="noopener" class="social">
+                        <span class="platform">Hugging Face</span>
+                        <span class="handle">
+                            ErenAta00
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                        </span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/eren-ata-3287991a7/" target="_blank" rel="noopener" class="social">
+                        <span class="platform">LinkedIn</span>
+                        <span class="handle">
+                            Eren Ata
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                        </span>
+                    </a>
+                    <a href="https://kaggle.com/erenata" target="_blank" rel="noopener" class="social">
+                        <span class="platform">Kaggle</span>
+                        <span class="handle">
+                            erenata
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                        </span>
+                    </a>
+                    <a href="https://leetcode.com/erenata16" target="_blank" rel="noopener" class="social">
+                        <span class="platform">LeetCode</span>
+                        <span class="handle">
+                            erenata16
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                        </span>
+                    </a>
+                    <a href="https://www.hackerrank.com/profile/ErenAta16" target="_blank" rel="noopener" class="social">
+                        <span class="platform">HackerRank</span>
+                        <span class="handle">
+                            ErenAta16
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container footer-inner">
+                <div class="colophon">© 2026 Eren Ata</div>
+                <div>Bragança — Manisa</div>
+            </div>
+        </footer>
+    </section>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

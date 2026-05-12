@@ -1,0 +1,17 @@
+{
+  "name": "Eren Ata — LLMOps & MLOps",
+  "short_name": "Eren Ata",
+  "description": "LLMOps, MLOps, and generative AI. Projects and contact.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0F0E0D",
+  "theme_color": "#0F0E0D",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' fill='%230F0E0D'/%3E%3Ctext x='96' y='118' font-size='64' fill='%23E07A3C' text-anchor='middle' font-family='Georgia,serif'%3EEA%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}
